@@ -1,4 +1,4 @@
-> 本 fork 的个人改编是 [简明务实 skill](../personal/skills/ponytail-pragmatic/SKILL.md)。安装时使用 `personal/skills/ponytail-pragmatic` 路径；[改造来源与对应关系](../personal/skills/ponytail-pragmatic/references/upstream.md)可供核对。下文保留上游原版说明，其整套插件安装方式与基准数字不代表本改编版本。
+> This fork provides the standalone [Ponytail Pragmatic skill](../personal/skills/ponytail-pragmatic/SKILL.md). Install `personal/skills/ponytail-pragmatic`; see the [provenance and integration notes](../personal/skills/ponytail-pragmatic/references/upstream.md). The original plugin entry points still load upstream rules, and this skill does not disable separately enabled Ponytail hooks. The original documentation and benchmark results below do not describe or measure the adaptation.
 
 <p align="center">
   <picture>

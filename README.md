@@ -1,14 +1,18 @@
-# Ponytail Pragmatic — 个人改编
+# Ponytail Pragmatic — Personal adaptation
 
-本 fork 基于 Ponytail 5.3.2 的核心规则，提供 [简明务实 skill](personal/skills/ponytail-pragmatic/SKILL.md)：减少空话、重复与过度设计，完整满足任务，并遵守当前项目或 harness 的流程、注释、格式和验证要求。
+This fork provides [Ponytail Pragmatic](personal/skills/ponytail-pragmatic/SKILL.md), a standalone skill derived from the core rules in Ponytail 5.3.2. It reduces filler, repetition, and unnecessary implementation while preserving task completeness and applicable project or harness requirements.
 
-改编独立维护在 `personal/skills/ponytail-pragmatic/`。参见 [来源与规则对应关系](personal/skills/ponytail-pragmatic/references/upstream.md)。
+The adaptation is maintained in `personal/skills/ponytail-pragmatic/`. See the [upstream provenance and adaptation notes](personal/skills/ponytail-pragmatic/references/upstream.md) for the source revision, rule mapping, and integration boundaries.
 
-在 Codex 中可让 `$skill-installer` 从 `XiaoDaiGua-Ray/ponytail` 的 `personal/skills/ponytail-pragmatic` 路径安装到全局；需要可复现安装时指定提交 SHA。仅安装该目录，包含 `SKILL.md`、`agents/openai.yaml`、`references/upstream.md` 和 `LICENSE`。
+The [semantic review](personal/REVIEW.md) records the corrected ambiguities, explicit-load evaluation, and remaining validation limits.
 
-允许按任务自动选择，也可显式使用 `$ponytail-pragmatic`。全局安装表示跨项目可用，实际自动选择仍由宿主决定；用户要求的详略和格式始终保留。
+In Codex, ask `$skill-installer` to install `personal/skills/ponytail-pragmatic` from `XiaoDaiGua-Ray/ponytail` into the user-level skills directory. Specify a commit SHA for a reproducible installation. Install the entire skill directory, including `SKILL.md`, `agents/openai.yaml`, `references/upstream.md`, and `LICENSE`.
 
-此安装入口使用原生 skill 机制。下文保留的是上游原版插件的说明、命令和基准；其整套插件安装方式与性能数字不代表本改编版本。
+Automatic selection is allowed, and explicit invocation is available as `$ponytail-pragmatic`. User-level installation makes the skill available across projects; the host determines whether to select it for a given request. The user's requested detail, language, and format remain applicable.
+
+The standalone skill does not install or disable hooks. The original plugin entry points and root `AGENTS.md` still contain upstream rules. If the original plugin or other always-on Ponytail rules are enabled separately, review that configuration for conflicts; this installation does not replace them.
+
+The documentation below describes the original upstream plugin. Its installation commands, modes, and benchmark results do not describe or measure this adaptation.
 
 ---
 

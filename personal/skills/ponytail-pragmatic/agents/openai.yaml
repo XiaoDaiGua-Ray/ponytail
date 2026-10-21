@@ -1,6 +1,6 @@
 interface:
-  display_name: "简明务实"
-  short_description: "基于 Ponytail：减少空话和过度设计，保留完整需求与项目规范"
+  display_name: "Ponytail Pragmatic"
+  short_description: "Clear answers and minimal, complete implementation"
 
 policy:
   allow_implicit_invocation: true
