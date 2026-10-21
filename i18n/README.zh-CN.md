@@ -1,3 +1,5 @@
+> 本 fork 的个人改编是 [简明务实 skill](../personal/skills/ponytail-pragmatic/SKILL.md)。安装时使用 `personal/skills/ponytail-pragmatic` 路径；[改造来源与对应关系](../personal/skills/ponytail-pragmatic/references/upstream.md)可供核对。下文保留上游原版说明，其整套插件安装方式与基准数字不代表本改编版本。
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../assets/logo-dark.png">
