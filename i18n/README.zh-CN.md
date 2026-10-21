@@ -1,4 +1,4 @@
-> This fork provides the standalone [Ponytail Pragmatic skill](../personal/skills/ponytail-pragmatic/SKILL.md). Install `personal/skills/ponytail-pragmatic`; see the [provenance and integration notes](../personal/skills/ponytail-pragmatic/references/upstream.md). The original plugin entry points still load upstream rules, and this skill does not disable separately enabled Ponytail hooks. The original documentation and benchmark results below do not describe or measure the adaptation.
+> This fork provides the standalone [Ponytail Pragmatic skill](../personal/skills/ponytail-pragmatic/SKILL.md). Install `personal/skills/ponytail-pragmatic`; see the [provenance and integration notes](../personal/skills/ponytail-pragmatic/references/upstream.md). For complete guidance at local Codex conversation startup, also configure the [startup integration](../personal/TRIGGERING.md). The original plugin entry points still load upstream rules, and this skill does not disable separately enabled Ponytail hooks. The original documentation and benchmark results below do not describe or measure the adaptation.
 
 <p align="center">
   <picture>

@@ -25,7 +25,7 @@ Upstream `skills/ponytail/`, the root `AGENTS.md`, and the original adapters rem
 
 If original Ponytail rules, plugins, or hooks are enabled separately, they can coexist with this skill and introduce conflicting preferences. This skill neither detects nor disables them. Inspect the host's active configuration when diagnosing such a conflict; do not assume that installing this skill replaces the original plugin.
 
-`allow_implicit_invocation: true` permits automatic selection. It does not guarantee selection on every request, activation in every host, or injection into subagents.
+`allow_implicit_invocation: true` permits automatic selection of the standalone skill. It does not guarantee selection on every request, activation in every host, or injection into subagents. This fork also provides an optional conversation-start integration outside the standalone skill directory: it synchronizes the complete canonical body into one managed global Codex instruction block. That path supplies the body without relying on catalog selection; it does not install a per-message hook. See `personal/TRIGGERING.md` in the fork for installation and validation boundaries.
 
 ## Maintenance boundaries
 

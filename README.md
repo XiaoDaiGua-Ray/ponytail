@@ -8,7 +8,9 @@ The [semantic review](personal/REVIEW.md) records the corrected ambiguities, exp
 
 In Codex, ask `$skill-installer` to install `personal/skills/ponytail-pragmatic` from `XiaoDaiGua-Ray/ponytail` into the user-level skills directory. Specify a commit SHA for a reproducible installation. Install the entire skill directory, including `SKILL.md`, `agents/openai.yaml`, `references/upstream.md`, and `LICENSE`.
 
-Automatic selection is allowed, and explicit invocation is available as `$ponytail-pragmatic`. User-level installation makes the skill available across projects; the host determines whether to select it for a given request. The user's requested detail, language, and format remain applicable.
+The standalone skill allows automatic selection and explicit invocation as `$ponytail-pragmatic`. To make its complete guidance available at the start of every local Codex conversation, install the same skill revision first, then run `python3 personal/scripts/install-codex-startup.py` from this checkout. The installer synchronizes one managed block in global `AGENTS.md`, preserves other guidance, and supports a read-only `--check`. See [conversation-start integration](personal/TRIGGERING.md) for the exact scope, update procedure, and verification.
+
+Startup integration supplies the full body once through the normal instruction chain; it does not append another copy on every user message. Applicable project and role requirements and the user's requested detail, language, and format remain authoritative.
 
 The standalone skill does not install or disable hooks. The original plugin entry points and root `AGENTS.md` still contain upstream rules. If the original plugin or other always-on Ponytail rules are enabled separately, review that configuration for conflicts; this installation does not replace them.
 

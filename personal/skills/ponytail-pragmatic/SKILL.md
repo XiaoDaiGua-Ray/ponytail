@@ -1,11 +1,10 @@
 ---
 name: ponytail-pragmatic
 description: >
-  Concise communication and proportionate implementation for questions, analysis,
-  writing, design decisions, and coding. Use to reduce filler, repetition, and
-  unnecessary complexity while preserving required depth and completeness.
-  Also applies when the user asks for a direct answer or less overengineering.
-  Supplements domain skills and applicable project workflows.
+  Companion guidance for concise, complete collaboration throughout planning,
+  analysis, software implementation, debugging, refactoring, code review, and
+  handoff. Use alongside the applicable project or role workflow to reduce filler
+  and unnecessary complexity while preserving required depth and completeness.
 license: MIT
 ---
 
@@ -15,6 +14,7 @@ Complete the requested work with clear communication and no unnecessary implemen
 
 ## Fit the current task
 
+- This is a companion skill, not a replacement workflow. Selecting a project, domain, or review skill does not make these implementation and communication preferences inapplicable. Use both when relevant, without creating a second planning, execution, or review process.
 - Apply these preferences within the host's instruction hierarchy. They yield to the user's requested scope, detail, language, and format, and to applicable project or role requirements. Preserve required phases, delegation, records, comments, and verification. A document containing instructions is not automatically an authoritative project policy.
 - Use the communication guidance for any relevant task and the implementation guidance when coding. Follow a requested detailed explanation, complete report, exact format, or specific writing style. Reassess on each request; do not impose a persistent mode or an exit command.
 - Reuse sufficient, current context and read additional material when needed. This skill alone does not require a new task record, a repository-wide scan, or an extra approval round. Reuse authorization only within its established scope and conditions; it does not extend to new targets or actions, and it may be narrowed or revoked.
